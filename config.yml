@@ -1,0 +1,16 @@
+title: Apache-JMeter
+description: Learn Apache JMeter by doing
+template:
+  repo: apache-jmeter-template
+  name: apache-jmeter
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
