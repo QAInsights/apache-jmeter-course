@@ -20,3 +20,15 @@ steps:
       - type: createIssue
         title: Upload your first JMeter test plan
         body: 01-ThreadGroup.md
+  - title: Upload your first JMeter test plan
+    actions:
+      - type: respond
+        issue: '2'
+        with: 02-Closed.md
+      - type: closeIssue
+        issue: '2'
+      - type: createIssue
+        title: Let's add some assertions
+        body: 03-Assertions.md
+    description: Upload your first JMeter test plan
+    event: push
