@@ -14,9 +14,9 @@ steps:
     event: issues.closed
     link: '{{ repoUrl }}/issues/1'
     actions:
+      - type: respond
+        with: 01-Closed.md
+        issue: 1
       - type: createIssue
         title: Upload your first JMeter test plan
         body: 01-ThreadGroup.md
-      - type: respond
-        with: 01-Closed.md
-        issue: '1'
