@@ -31,4 +31,5 @@ steps:
         title: Let's add some assertions
         body: 03-Assertions.md
     description: Upload your first JMeter test plan
+    link: "{{ repoUrl }}/issues/2"
     event: push
