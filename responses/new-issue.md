@@ -9,6 +9,11 @@ Let's get started.
 - [ ] Check JMeter is installed/configured
 - [ ] Clone this repository on your local machine
 
+**Points to note:**
+
+📌 Always install the latest stable versions of the software unless the version specified.
+📌 Below exercises have been tested using JMeter 5.3 in OpenJDK 15.
+
 # OpenJDK
 
 * Download [OpenJDK](https://jdk.java.net/15/) and follow the instructions mentioned [here](https://qainsights.com/how-to-install-java-15-in-windows/). Similar instructions can be found in the internet for Linux or macOS operating systems.
@@ -21,6 +26,8 @@ Let's get started.
 
 * Download Apache JMeter from [here](https://jmeter.apache.org/)
 * Extract the contents and keep it your favorite location.
+
+There are additional components you can install if you are planning to develop JMeter, but those are completely optional and beyond the scope of this training.
 
 # Clone this repository
 
