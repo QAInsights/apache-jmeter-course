@@ -33,7 +33,7 @@ steps:
       - type: getFileContents
         filename: 01-ThreadGroup.jmx
       - type: gate
-        left: hello
+        left: hello123
         right: hello
         operator: ===
       - type: createIssue
