@@ -46,4 +46,3 @@ After successful push, I will let you know the next steps.
  > ⚠ **CAUTION:** Undo is not possible in JMeter.  
 
 📌 Instead of deleting, you can disable the element by clicking on `right clicking on it > Disable`.  
-

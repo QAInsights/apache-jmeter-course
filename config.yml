@@ -28,22 +28,17 @@ steps:
       - type: respond
         issue: 2
         with: 02-Closed.md      
-      - type: getFileContents
-        filename: 01-ThreadGroup.md
-      - type: gate
-        left: hello
-        right: hello
-        operator: ===
-        else:
-        - type: respond
-          with: Please upload valid JMX
       - type: createIssue
-        body: 03-Assertions.md
-        title: New issue
-  - title: Assertions
+        body: 03-HTTPSampler.md
+        title: Add HTTP Sampler
+  - title: HTTP Sampler
     event: issues.closed
-    description: Learn Assertions
+    description: Adding a HTTP Sampler
     link: '{{ repoUrl }}/issues/3'
     actions:
       - type: respond
-        with: 03-Assertions.md
+        issue: 3
+        with: 03-Closed.md
+      - type: createIssue
+        body: 04-Listener.md
+        title: Add a Listener

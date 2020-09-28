@@ -4,4 +4,4 @@ Excellent work!
 
 Let's add some ingredients to the test plan and make it tasty. 
 
-🔗 Here is the link to the [next exercise]({{ repoUrl }}/issues/3).  
+🔗 Here is the link to the [next exercise]({{ repoUrl }}/issues/3).
