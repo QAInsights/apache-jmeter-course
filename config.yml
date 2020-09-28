@@ -7,10 +7,10 @@ template:
 before:
   - type: createIssue
     title: Welcome!
-    body: new-issue.md
+    body: 01-Welcome.md
 steps:
   - title: Validate your environment
-    description: Install the prerequisites
+    description: Install and validate the prerequisites
     event: issues.closed
     link: '{{ repoUrl }}/issues/1'
     actions:
@@ -29,7 +29,7 @@ steps:
         issue: 2
         with: 02-Closed.md      
       - type: createIssue
-        body: 03-HTTPSampler.md
+        body: 02-HTTPSampler.md
         title: Add HTTP Sampler
   - title: HTTP Sampler
     event: push
@@ -40,5 +40,16 @@ steps:
         issue: 3
         with: 03-Closed.md
       - type: createIssue
-        body: 04-Listener.md
+        body: 03-Listener.md
+        title: Add a Listener
+  - title: Listener
+    event: push
+    description: Adding a Listener
+    link: '{{ repoUrl }}/issues/4'
+    actions:
+      - type: respond
+        issue: 4
+        with: 04-Closed.md
+      - type: createIssue
+        body: 05-CSVDataSetConfig.md
         title: Add a Listener

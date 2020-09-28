@@ -10,7 +10,7 @@ Navigate to `bin` folder and launch `jmeter.bat` for Windows OS or `jmeter.sh` f
 
 If Java is installed properly, JMeter will launch as shown below.
 
-[Placeholder to add the images]
+![JMeter](/images/00-JMeter.jpg)
 
 Congratuations on launching JMeter 🎉
 
