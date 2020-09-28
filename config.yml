@@ -26,10 +26,10 @@ steps:
     event: push
     actions:
       - type: respond
-        issue: '2'
+        issue: 2
         with: 02-Closed.md
       - type: closeIssue
-        issue: '2'
+        issue: 2
       - type: createIssue
         title: Let's add some assertions
         body: 03-Assertions.md 
