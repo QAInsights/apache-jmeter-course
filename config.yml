@@ -32,7 +32,7 @@ steps:
         body: 03-HTTPSampler.md
         title: Add HTTP Sampler
   - title: HTTP Sampler
-    event: issues.closed
+    event: push
     description: Adding a HTTP Sampler
     link: '{{ repoUrl }}/issues/3'
     actions:
