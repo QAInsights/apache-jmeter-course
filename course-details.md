@@ -6,7 +6,7 @@ Over the duration of this course, you interact with the GitHub Learning bot whic
 
 In this course, the bot will teach you the following:
 
-* Creating your first JMeter test plan
+* Creating first JMeter test plan
 * HTTP Sampler
 * Listeners
 * Data Parameterization
