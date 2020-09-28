@@ -27,15 +27,16 @@ steps:
     actions:
       - type: respond
         issue: 2
-        with: 02-Closed.md
-      - type: closeIssue
-        issue: 2
+        with: 02-Closed.md      
       - type: getFileContents
         filename: 01-ThreadGroup.jmx
       - type: gate
         left: hello123
         right: hello
         operator: ===
+        else:
+        - type: respond
+          with: Please upload valid JMX
       - type: createIssue
         body: 03-Assertions.md
         title: New issue
