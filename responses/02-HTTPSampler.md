@@ -17,17 +17,17 @@ Let's dive into the activities.
 1. Add a `HTTP Request Defaults` by right clicking on `Thread Group > Config Element > HTTP Request Defaults`.
 2. Add the properties to the `HTTP Request Defaults` as shown below.
 
-![HTTP Request Defaults](/images/10-HTTPRequestDefaults.jpg)
+![HTTP Request Defaults](https://raw.githubusercontent.com/QAInsights/apache-jmeter-course/master/images/10-HTTPRequestDefaults.jpg)
 
 3. Add a `HTTP Sampler` by right clicking on `Thread Group > Sampler > HTTP Request`.
 4. Add `/` to the `Path`
 
-![HTTP Request 1](/images/20-HTTPRequest-1.jpg)
+![HTTP Request 1](https://raw.githubusercontent.com/QAInsights/apache-jmeter-course/master/images/20-HTTPRequest-1.jpg)
 
 5. Add another `HTTP Sampler`
 6. Add `/actions/Catalog.action` to the `Path`
 
-![HTTP Request 2](/images/30-HTTPRequest-2.jpg)
+![HTTP Request 2](https://raw.githubusercontent.com/QAInsights/apache-jmeter-course/master/images/30-HTTPRequest-2.jpg)
 
 7. Save your test plan by pressing `Ctrl + S`
 8. Push the test plan to the repo to go to next exercise.
