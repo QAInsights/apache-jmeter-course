@@ -29,9 +29,9 @@ steps:
         issue: 2
         with: 02-Closed.md      
       - type: getFileContents
-        filename: 01-ThreadGroup.jmx
+        filename: 01-ThreadGroup.md
       - type: gate
-        left: hello123
+        left: hello
         right: hello
         operator: ===
         else:
