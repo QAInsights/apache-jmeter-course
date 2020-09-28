@@ -22,7 +22,7 @@ This course follows GitHub's 3 phase approach:
 * Observe
 * Feedback
 
-*Instruct* is the phase where you will get the set of instructions from the bot (in the form of issues and markdown files). You have to follow the instructions as is and pull the file to the repository.
+*Instruct* is the phase where you will get the set of instructions from the bot (in the form of issues and markdown files). You have to follow the instructions as is and push it to your repository.
 
 *Observe* is the phase where the bot will look for your response. Once you complete the activity, the bot will validate and respond.
 
