@@ -2,7 +2,7 @@ Learn JMeter by doing and with the help of GitHub Learning Bot 🤖. This course
 
 Over the duration of this course, you interact with the GitHub Learning bot which makes learning fun and effective.
 
-# What you'll learn?
+# What you will learn?
 
 In this course, the bot will teach you the following:
 
@@ -30,7 +30,7 @@ This course follows GitHub's 3 phase approach:
 
 # Prerequisites
 
-I recommend you first complete the following course:
+I recommend you to complete the following course, before you get started:
 
 * [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github/)
 
