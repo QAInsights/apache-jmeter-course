@@ -21,6 +21,9 @@ steps:
         title: Upload your first JMeter test plan
         body: 01-ThreadGroup.md
   - title: Upload your first JMeter test plan
+    description: Upload your first JMeter test plan
+    link: "{{ repoUrl }}/issues/2"
+    event: push
     actions:
       - type: respond
         issue: '2'
@@ -29,7 +32,4 @@ steps:
         issue: '2'
       - type: createIssue
         title: Let's add some assertions
-        body: 03-Assertions.md
-    description: Upload your first JMeter test plan
-    link: "{{ repoUrl }}/issues/2"
-    event: push
+        body: 03-Assertions.md 
