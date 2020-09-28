@@ -38,3 +38,12 @@ Let's get started 🚀
 4. Push the JMeter test plan to your repo
 
 After successful push, I will let you know the next steps.
+
+**Tips**  
+📌 Whenever you want to add any type of elements, just right click on the appropriate parent element.  
+
+📌 If you want to delete any element, press `Delete` key in your keyboard.
+ > ⚠ **CAUTION:** Undo is not possible in JMeter.  
+
+📌 Instead of deleting, you can disable the element by clicking on `right clicking on it > Disable`.  
+

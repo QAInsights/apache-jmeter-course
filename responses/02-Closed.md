@@ -1,3 +1,7 @@
-# TG is closed
+Congratulations 🎉 on creating your first thread group.  
 
-Congratulations 🎉 on creating your first thread group. Here is the link to the [next exercise]({{ repoUrl }}/issues/3).
+Excellent work!  
+
+Let's add some ingredients to the test plan and make it tasty. 
+
+🔗 Here is the link to the [next exercise]({{ repoUrl }}/issues/3).  
