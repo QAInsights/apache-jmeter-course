@@ -36,6 +36,9 @@ steps:
         left: hello
         right: hello
         operator: ===
+      - type: createIssue
+        body: 03-Assertions.md
+        title: New issue
   - title: Assertions
     event: issues.closed
     description: Learn Assertions
