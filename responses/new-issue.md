@@ -20,6 +20,7 @@ Let's get started.
 # Apache JMeter
 
 * Download Apache JMeter from [here](https://jmeter.apache.org/)
+* Extract the contents and keep it your favorite location.
 
 # Clone this repository
 
