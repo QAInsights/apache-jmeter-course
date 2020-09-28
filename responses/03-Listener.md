@@ -27,5 +27,3 @@ There are many types of Listeners available in JMeter. In this exercise, we are 
 3. Toggle between `Sampler result`, `Request`, `Response data` for both of the requests and understand the context.
 
 Push the changes to go to your next exercise ➡.
-
-Thanks for sticking with me. 🙏
