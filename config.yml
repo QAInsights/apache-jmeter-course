@@ -22,7 +22,7 @@ steps:
         body: 01-ThreadGroup.md
   - title: Upload your first JMeter test plan
     description: Upload your first JMeter test plan
-    link: "{{ repoUrl }}/issues/2"
+    link: '{{ repoUrl }}/issues/2'
     event: push
     actions:
       - type: respond
@@ -30,6 +30,16 @@ steps:
         with: 02-Closed.md
       - type: closeIssue
         issue: 2
-      - type: createIssue
-        title: Let's add some assertions
-        body: 03-Assertions.md 
+      - type: getFileContents
+        filename: 01-ThreadGroup.jmx
+      - type: gate
+        left: hello
+        right: hello
+        operator: ===
+  - title: Assertions
+    event: issues.closed
+    description: Learn Assertions
+    link: '{{ repoUrl }}/issues/3'
+    actions:
+      - type: respond
+        with: 03-Assertions.md
