@@ -3,7 +3,7 @@ description: Learn Apache JMeter by doing
 template:
   repo: apache-jmeter-template
   name: apache-jmeter
-  description: Learn JMeter by doing
+  description: Learn Apache JMeter by doing
 before:
   - type: createIssue
     title: Welcome!
