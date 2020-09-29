@@ -64,3 +64,25 @@ steps:
       - type: createIssue
         body: 06-Timers.md
         title: Timers      
+  - title: Timers
+    event: push
+    description: Add delay to your requests
+    link: '{{ repoUrl }}/issues/6'
+    actions:
+      - type: respond
+        issue: 6
+        with: 06-Closed.md
+      - type: createIssue
+        body: 07-Assertions.md
+        title: Assertions
+  - title: Transaction Controller
+    event: push
+    description: Measure performance
+    link: '{{ repoUrl }}/issues/7'
+    actions:
+      - type: respond
+        issue: 7
+        with: 07-Closed.md
+      - type: createIssue
+        body: 08-Transaction-Controller.md
+        title: Transaction Controller
