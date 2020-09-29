@@ -12,11 +12,13 @@ In this course, the bot will teach you the following:
 * Data Parameterization
 * Timers
 * Assertions
-* JMeter Plugins
+* Controllers
+* Test Execution
+* Visualization
 
 # How this course works?
 
-This course follows GitHub's 3 phase approach:
+This course follows GitHub's three phase approach:
 
 * Instruct
 * Observe
@@ -41,3 +43,4 @@ Developers and Testers
 # Thanks
 
 * [The Apache Foundation](https://jmeter.apache.org/)
+* [OctoPerf Pet Store Demo](https://petstore.octoperf.com) - Please do not run a load test on this demo website.
