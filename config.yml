@@ -95,5 +95,24 @@ steps:
         issue: 8
         with: 08-Closed.md
       - type: createIssue
-        body: 09-View-Results.md
+        body: 09-Execute.md
         title: View Results
+  - title: Final Phase
+    event: push
+    description: Let's conclude
+    link: '{{ repoUrl }}/issues/9'
+    actions:
+      - type: respond
+        issue: 9
+        with: 09-Closed.md
+      - type: createIssue
+        body: Thank-you.md
+        title: Explore JMeter
+  - title: Explore JMeter on your own
+    description: Tips for next steps
+    event: issues.closed
+    link: "{{ repoUrl }}/issues/10"
+    actions:
+      - type: respond
+        with: Thank-you.md
+        issue: 10
