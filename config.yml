@@ -42,7 +42,7 @@ steps:
       - type: createIssue
         body: 03-Listener.md
         title: Add a Listener
-  - title: Listener
+  - title: Listeners
     event: push
     description: Adding a Listener
     link: '{{ repoUrl }}/issues/4'
@@ -52,4 +52,15 @@ steps:
         with: 04-Closed.md
       - type: createIssue
         body: 05-CSVDataSetConfig.md
-        title: Add a Listener
+        title: Data Parameterization
+  - title: Data Parameterization
+    event: push
+    description: Implement data parameterization
+    link: '{{ repoUrl }}/issues/5'
+    actions:
+      - type: respond
+        issue: 5
+        with: 05-Closed.md
+      - type: createIssue
+        body: 06-Timers.md
+        title: Timers      
