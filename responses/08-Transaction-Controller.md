@@ -24,6 +24,3 @@ Instead of adding the transaction controller, we are goint to insert it to the H
 ![Transactions Results](https://raw.githubusercontent.com/QAInsights/apache-jmeter-course/master/images/150-Transactions-Results.jpg)
 
 Push the changes to proceed further.
-
-
-

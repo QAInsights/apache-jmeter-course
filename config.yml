@@ -86,3 +86,14 @@ steps:
       - type: createIssue
         body: 08-Transaction-Controller.md
         title: Transaction Controller
+  - title: Load Testing
+    event: push
+    description: Let's test
+    link: '{{ repoUrl }}/issues/8'
+    actions:
+      - type: respond
+        issue: 8
+        with: 08-Closed.md
+      - type: createIssue
+        body: 09-View-Results.md
+        title: View Results
