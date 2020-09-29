@@ -114,5 +114,5 @@ steps:
     link: "{{ repoUrl }}/issues/10"
     actions:
       - type: respond
-        with: Thank-you.md
+        with: See you soon
         issue: 10
