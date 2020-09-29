@@ -15,9 +15,14 @@ To simulate the real world scenario in the test plan, it is important to add rel
 
 1. To your `Pet Store` plan, let us add a `Constant Timer` for each HTTP request.
 2. Right on the first `HTTP Request`, go to `Add > Timer > Constant Timer`.
-3. Add `1000` in `Thread Delay`. Unit of time in JMeter is `milliseconds`
+3. Add `1000` in `Thread Delay`. Unit of time in JMeter is `milliseconds`.
 
 ![Timers](https://raw.githubusercontent.com/QAInsights/apache-jmeter-course/master/images/100-Timers.jpg]
 
+4. Click on `View Results Tree` element and then click on `Run`
 
+You can observe a delay between the HTTP requests when the test is running.
 
+👏 Kudos! Now you know how to add `Timers` to JMeter test plan.
+
+Push the changes to navigate further. We are almost there, keep up the pace.
