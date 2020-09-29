@@ -12,3 +12,5 @@ Once again, I am NaveenKumar Namachivayam, performance engineer. I break stuffs.
 
 ✍ [My Blog](https://qain.si)  
 ⏩ [LinkedIn](https://www.linkedin.com/in/naveenkumarn/)  
+
+Please close this issue to complete this course.
